@@ -2,6 +2,7 @@ from filetype import guess
 from pyprompt.sound import *
 import simpleaudio as sa
 
+
 class FileIsNotWavFormatException(Exception):
     def __init__(self, filepath):
         self.filepath = filepath

@@ -40,10 +40,10 @@ def test(name="aaa"):
     print(name)
     return "ccc"
 
-print("begin")
-re = test()
-print(re)
-print("end")
+# print("begin")
+# re = test()
+# print(re)
+# print("end")
 
 """
 out <<
@@ -56,9 +56,9 @@ end
 
 
 # email prompt
-sender = "1194684253@qq.com"
-code = "iglraqyxfoqeghge"
-receiver = "shaoeric@foxmail.com"
+sender = "xxx@qq.com"
+code = "xxxxxxxxxxxxxxxx"
+receiver = "xxx@foxmail.com"  # list or str
 
 @mpof(sender, code, receiver, attachments=['demo.txt'])
 def test(name="aaa"):
@@ -95,7 +95,7 @@ def test(name="aaa"):
         if i%20 == 0:
             print(i)
     x = np.array([[1,23,4]])
-    np.savetxt('demo.txt', x)
+    np.savetxt('test.txt', x)
     y = np.loadtxt('notExist.txt')
     return y
 

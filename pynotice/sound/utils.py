@@ -1,5 +1,5 @@
 from filetype import guess
-from pyprompt.sound import *
+from pynotice.sound import *
 import simpleaudio as sa
 
 

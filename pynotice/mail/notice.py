@@ -1,12 +1,12 @@
-from pyprompt.mail.utils import *
+from pynotice.mail.utils import *
 
 
-def promptOnfinish(sender_email, sender_authorization_code, receiver_email, mail_subject="Finish!", mail_content="", attachments=None, smtp_host=None, smtp_port=None):
+def noticeOnFinish(sender_email, sender_authorization_code, receiver_email, mail_subject="Finish!", mail_content="", attachments=None, smtp_host=None, smtp_port=None):
     """
-    When the decorated function finishes, promptOnfinish() will send an email with the result of the function and attachments to receiver's email if the stmp of the sender's email is available.
+    When the decorated function finishes, noticeOnfinish() will send an email with the result of the function and attachments to receiver's email if the stmp of the sender's email is available.
 
     :param sender_email: sender's email
-    :param sender_authorization_code:  sender's smtp authorization code, instead of email login password
+    :param sender_authorization_code:  sender's smtp authorization code
     :param receiver_email: receiver's email or a list of emails
     :param mail_subject: subject of the email
     :param mail_content: content of the email
@@ -34,12 +34,12 @@ def promptOnfinish(sender_email, sender_authorization_code, receiver_email, mail
     return decorator
 
 
-def promptOnException(sender_email, sender_authorization_code, receiver_email, mail_subject="Exception!", mail_content="", smtp_host=None, smtp_port=None):
+def noticeOnException(sender_email, sender_authorization_code, receiver_email, mail_subject="Exception!", mail_content="", smtp_host=None, smtp_port=None):
     """
-    When the decorated function goes wrong, promptOnException() will send an email with the Exception Information receiver's email if the stmp of the sender's email is available.
+    When the decorated function goes wrong, noticeOnException() will send an email with the Exception Information receiver's email if the stmp of the sender's email is available.
 
     :param sender_email: sender's email
-    :param sender_authorization_code:  sender's smtp authorization code, instead of email login password
+    :param sender_authorization_code:  sender's smtp authorization code
     :param receiver_email: receiver's email or a list of emails
     :param mail_subject: subject of the email
     :param mail_content: content of the email

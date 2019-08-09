@@ -13,7 +13,7 @@ def config_server(sender_email:str, sender_autorization_code:str, smtp_host: Opt
     smtp server configuration
 
     :param sender_email: sender's email
-    :param sender_autorization_code:  sender's smtp authorization code, instead of email login password
+    :param sender_autorization_code:  sender's smtp authorization code
     :param smtp_host: smtp host address
     :param smtp_port: smtp host port
     :param timeout: timeout

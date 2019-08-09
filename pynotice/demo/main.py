@@ -1,5 +1,5 @@
-from pyprompt.sound.prompt import promptOnfinish as spof, promptOnException as spoe
-from pyprompt.mail.prompt import promptOnfinish as mpof, promptOnException as mpoe
+from pynotice.sound.notice import noticeOnFinish as spof, noticeOnException as spoe
+from pynotice.mail.notice import noticeOnFinish as mpof, noticeOnException as mpoe
 import numpy as np
 
 
@@ -12,10 +12,10 @@ def foo(name="foooo"):
     return "123"
 
 
-# print("begin")
-# ret = foo()
-# print(ret)
-# print("finish")
+print("begin")
+ret = foo()
+print(ret)
+print("finish")
 """
 out <<
 begin

@@ -70,7 +70,7 @@ def test(name="aaa"):
     return x, [1,23,5,4], name
 
 # print("begin")
-# ret = demo()
+# ret = test()
 # print(ret)
 # print("end")
 """

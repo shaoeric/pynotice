@@ -1,7 +1,7 @@
 ## 介绍
 ##### README:  [English](https://github.com/shaoeric/pynotice/blob/master/README.md) | [中文](https://github.com/shaoeric/pynotice/blob/master/README-cn.md)
 
-pynotice可以在你的函数执行结束或者异常后播放音频或者发送邮件通知你的python3模块
+pynotice可以在你的函数执行结束或者异常后播放音频或者发送邮件通知你
 #### 功能
 ___
 - 使用默认或者自定义的wav文件路径

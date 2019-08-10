@@ -7,7 +7,7 @@ def _notifier(msg):
     return subprocess.call(["notifier", "notify", "--msg", msg ])
 
 
-def noticeOnFinish(filepath=success_audio):
+def noticeOnFinish():
     """
     decorator function, when the func finishes, noticeOnFinish() will invoke
     `notifier <https://metacpan.org/pod/distribution/App-Notifier-Client/bin/notifier>`_.
@@ -24,7 +24,7 @@ def noticeOnFinish(filepath=success_audio):
     return decorator
 
 
-def noticeOnException(filepath=error_audio):
+def noticeOnException():
     """
     decorator function, when the func goes wrong or raises an Exception, noticeOnException() will invoke
     `notifier <https://metacpan.org/pod/distribution/App-Notifier-Client/bin/notifier>`_.

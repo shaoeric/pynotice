@@ -58,9 +58,9 @@ end
 
 
 # email prompt
-sender = "1194684253@qq.com"
-code = "iglraqyxfoqeghge"
-receiver = "shaoeric@foxmail.com"  # list or str
+sender = "xxx@qq.com"
+code = "xxxxxxxxxxxxxxxx"
+receiver = "xxx@foxmail.com"  # list or str
 
 @mpof(sender, code, receiver, attachments=['demo.txt'])
 def test(name="aaa"):

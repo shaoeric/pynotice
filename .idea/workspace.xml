@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4633959e-c2e3-419c-a643-99617447000e" name="Default Changelist" comment="更改了项目名，更新了README文件">
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/demo/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/demo/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/demo/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/mail/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/mail/notice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/mail/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/notice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/resource/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/resource/error.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/resource/success.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pynotice-0.0.1-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pynotice-0.0.1.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pynotice/demo/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pynotice/app_notifier/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/app_notifier/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pynotice/app_notifier/notice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/app_notifier/notice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pynotice/demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/demo/main.py" afterDir="false" />
+    <list default="true" id="4633959e-c2e3-419c-a643-99617447000e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/Build.PL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/Changes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/MANIFEST.SKIP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/META.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/META.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/bin/notifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/dist.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/lib/App/Notifier/Client.pm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/lib/App/Notifier/Client/Notifier_App.pm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/t/00-compile.t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/xt/author/eol.t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/xt/author/no-tabs.t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/xt/author/pod-coverage.t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/xt/author/pod-syntax.t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/xt/author/tidyall.t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/xt/release/cpan-changes.t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/app_notifier/app-notifier/xt/release/trailing-space.t" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pynotice/app_notifier/notice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="264">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="e#41#68#0" expanded="true" />
               </folding>
@@ -143,6 +135,12 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -190,6 +188,11 @@
           <expand>
             <path>
               <item name="pynotice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pynotice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
               <item name="pynotice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -373,7 +376,7 @@
       <workItem from="1565312474329" duration="26128000" />
       <workItem from="1565345175453" duration="2157000" />
       <workItem from="1565355304494" duration="15000" />
-      <workItem from="1565489135789" duration="3353000" />
+      <workItem from="1565489135789" duration="3626000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1565233994156</created>
@@ -445,11 +448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565346262146</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加了对app-notifier的调用">
+      <created>1565492733720</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565492733720</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56054000" />
+    <option name="totallyTimeSpent" value="56327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,9 +472,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22267206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22267206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,7 +484,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49932525" visible="true" weight="0.41751826" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932525" weight="0.41751826" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006748" side_tool="true" weight="0.31970802" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -550,7 +559,8 @@
     <MESSAGE value="实现当程序出错后，播放错误提示音的功能" />
     <MESSAGE value="实现了函数完成与异常后的邮件提醒。其中完成提醒可附带附件（附件可以是函数运行中生成的，实验后发现txt可以下载预览，npy格式不能通过邮件传输，猜测是邮箱会对文件进行处理，后续再分析原因。图片是可以传输的，其他文件格式还没有测试）" />
     <MESSAGE value="更改了项目名，更新了README文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改了项目名，更新了README文件" />
+    <MESSAGE value="添加了对app-notifier的调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了对app-notifier的调用" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyprompt$utils.coverage" NAME="utils Coverage Results" MODIFIED="1565278336779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyprompt/mail" />
@@ -741,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pynotice/app_notifier/notice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="264">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#41#68#0" expanded="true" />
           </folding>

@@ -1,10 +1,12 @@
 #-*- coding : utf-8 -*-
 # coding: utf-8
 
-import subprocess
+from subprocess import call
+from pynotice.app_notifier import exe
+
 
 def _notifier(msg):
-    return subprocess.call(["notifier", "notify", "--msg", msg ])
+    return call([exe, "notify", "--msg", msg])
 
 
 def noticeOnFinish():
@@ -12,7 +14,6 @@ def noticeOnFinish():
     decorator function, when the func finishes, noticeOnFinish() will invoke
     `notifier <https://metacpan.org/pod/distribution/App-Notifier-Client/bin/notifier>`_.
 
-    :param filepath: wav audio path
     :return:
     """
     def decorator(fun):
@@ -29,12 +30,11 @@ def noticeOnException():
     decorator function, when the func goes wrong or raises an Exception, noticeOnException() will invoke
     `notifier <https://metacpan.org/pod/distribution/App-Notifier-Client/bin/notifier>`_.
 
-    :param filepath: wav audio path
     :return:
     """
     def decorator(fun):
         def wrapper(*args, **kwargs):
-            check_file_type(filepath)
+            # check_file_type(filepath)
             try:
                 result = fun(*args, **kwargs)
                 return result

@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4633959e-c2e3-419c-a643-99617447000e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pynotice/demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pynotice/mail/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pynotice/sound/resource/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyprompt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pynotice.iml" afterDir="false" />
+    <list default="true" id="4633959e-c2e3-419c-a643-99617447000e" name="Default Changelist" comment="更改了项目名，更新了README文件">
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/demo/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/demo/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/demo/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/mail/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/mail/notice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/mail/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/notice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/resource/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/resource/error.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/resource/success.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/pynotice/sound/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pynotice-0.0.1-py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pynotice-0.0.1.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pynotice/demo/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/README-cn.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/demo/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/demo/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/mail/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/mail/prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/mail/notice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/mail/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/mail/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/sound/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/sound/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/sound/prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/sound/notice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/sound/resource/error.wav" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/sound/resource/error.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/sound/resource/success.wav" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/sound/resource/success.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/sound/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyprompt/sound/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/sound/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pynotice/app_notifier/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/app_notifier/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pynotice/app_notifier/notice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/app_notifier/notice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pynotice/demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pynotice/demo/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +40,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pynotice/demo/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="e#0#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pynotice/sound/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -41,11 +60,32 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pynotice/app_notifier/notice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#41#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pynotice/app_notifier/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pynotice/sound/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="24">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,20 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="120">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="528">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -83,25 +111,10 @@
         <entry file="file://$PROJECT_DIR$/README-cn.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="48">
-                <caret line="1" column="128" selection-start-line="1" selection-start-column="122" selection-end-line="1" selection-end-column="128" />
-                <folding>
-                  <element signature="e#0#47#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="24">
+                <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/lib/pyprompt/demo/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#83#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,12 +131,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pyprompt</find>
+      <find>notice</find>
       <find>prompt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -141,19 +160,22 @@
         <option value="$PROJECT_DIR$/pyprompt/mail/__init__.py" />
         <option value="$PROJECT_DIR$/pyprompt/demo/main.py" />
         <option value="$PROJECT_DIR$/MANIFEST.in" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/pynotice/mail/prompt.py" />
         <option value="$PROJECT_DIR$/pynotice/sound/prompt.py" />
         <option value="$PROJECT_DIR$/pynotice/mail/notice.py" />
-        <option value="$PROJECT_DIR$/README-cn.md" />
         <option value="$PROJECT_DIR$/build/lib/pyprompt/demo/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/README-cn.md" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/pynotice/app_notifier/__init__.py" />
+        <option value="$PROJECT_DIR$/pynotice/app_notifier/notice.py" />
+        <option value="$PROJECT_DIR$/pynotice/demo/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="570" />
-    <option name="y" value="241" />
+    <option name="x" value="197" />
+    <option name="y" value="223" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -169,29 +191,6 @@
             <path>
               <item name="pynotice" type="b2602c69:ProjectViewProjectNode" />
               <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pynotice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pynotice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pynotice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pynotice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-              <item name="pynotice" type="462c0819:PsiDirectoryNode" />
-              <item name="sound" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,8 +236,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.prompt (1)">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.notice">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pynotice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,12 +245,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyprompt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pynotice/app_notifier" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyprompt/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pynotice/app_notifier/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pynotice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,12 +289,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyprompt/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pynotice/demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyprompt/test/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pynotice/demo/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="notice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pynotice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pynotice/app_notifier" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pynotice/app_notifier/notice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,35 +347,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pynotice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyprompt/mail" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyprompt/mail/utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.notice" />
+        <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.prompt (1)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +371,9 @@
       <workItem from="1565232354026" duration="14456000" />
       <workItem from="1565268233812" duration="9597000" />
       <workItem from="1565312474329" duration="26128000" />
-      <workItem from="1565345175453" duration="854000" />
+      <workItem from="1565345175453" duration="2157000" />
+      <workItem from="1565355304494" duration="15000" />
+      <workItem from="1565489135789" duration="3353000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1565233994156</created>
@@ -437,28 +438,44 @@
       <option name="project" value="LOCAL" />
       <updated>1565318482618</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更改了项目名，更新了README文件">
+      <created>1565346262146</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565346262146</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51383000" />
+    <option name="totallyTimeSpent" value="56054000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21592443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22267206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932525" weight="0.28029197" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932525" weight="0.38248175" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932525" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49932525" visible="true" weight="0.41751826" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006748" side_tool="true" weight="0.31970802" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -532,13 +549,17 @@
     <MESSAGE value="上传MIT License文件" />
     <MESSAGE value="实现当程序出错后，播放错误提示音的功能" />
     <MESSAGE value="实现了函数完成与异常后的邮件提醒。其中完成提醒可附带附件（附件可以是函数运行中生成的，实验后发现txt可以下载预览，npy格式不能通过邮件传输，猜测是邮箱会对文件进行处理，后续再分析原因。图片是可以传输的，其他文件格式还没有测试）" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了函数完成与异常后的邮件提醒。其中完成提醒可附带附件（附件可以是函数运行中生成的，实验后发现txt可以下载预览，npy格式不能通过邮件传输，猜测是邮箱会对文件进行处理，后续再分析原因。图片是可以传输的，其他文件格式还没有测试）" />
+    <MESSAGE value="更改了项目名，更新了README文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改了项目名，更新了README文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyprompt$utils.coverage" NAME="utils Coverage Results" MODIFIED="1565278336779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyprompt/mail" />
     <SUITE FILE_PATH="coverage/pyprompt$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1565340162433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyprompt/demo" />
     <SUITE FILE_PATH="coverage/pyprompt$prompt__1_.coverage" NAME="prompt (1) Coverage Results" MODIFIED="1565313644737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyprompt/mail" />
+    <SUITE FILE_PATH="coverage/pynotice$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1565346707012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pynotice/demo" />
     <SUITE FILE_PATH="coverage/pyprompt$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1565237992111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyprompt/sound" />
+    <SUITE FILE_PATH="coverage/pynotice$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1565491236970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pynotice/app_notifier" />
+    <SUITE FILE_PATH="coverage/pynotice$notice.coverage" NAME="notice Coverage Results" MODIFIED="1565491434587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pynotice/app_notifier" />
     <SUITE FILE_PATH="coverage/pyprompt$prompt.coverage" NAME="prompt Coverage Results" MODIFIED="1565268965807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyprompt/sound" />
     <SUITE FILE_PATH="coverage/pyprompt$main.coverage" NAME="main Coverage Results" MODIFIED="1565317436520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyprompt/test" />
     <SUITE FILE_PATH="coverage/pyprompt$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1565318164435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyprompt" />
@@ -628,16 +649,6 @@
     <entry file="file://$PROJECT_DIR$/pynotice/demo/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pynotice/demo/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="112" column="2" lean-forward="true" selection-start-line="112" selection-start-column="2" selection-end-line="112" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pynotice/demo/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -659,10 +670,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pynotice/sound/test.py">
+    <entry file="file://$PROJECT_DIR$/pynotice/sound/test.py" />
+    <entry file="file://$PROJECT_DIR$/build/lib/pyprompt/demo/main.py" />
+    <entry file="file://$PROJECT_DIR$/pynotice/mail/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pynotice/sound/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README-cn.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="24">
+            <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -673,59 +722,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/lib/pyprompt/demo/main.py">
+    <entry file="file://$PROJECT_DIR$/pynotice/demo/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="201">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="e#0#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pynotice/mail/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/pynotice/app_notifier/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pynotice/sound/utils.py">
+    <entry file="file://$PROJECT_DIR$/pynotice/app_notifier/notice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#41#68#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README-cn.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="48">
-            <caret line="1" column="128" selection-start-line="1" selection-start-column="122" selection-end-line="1" selection-end-column="128" />
-            <folding>
-              <element signature="e#0#47#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

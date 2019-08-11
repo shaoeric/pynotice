@@ -1,6 +1,5 @@
 from pynotice.sound.notice import noticeOnFinish as spof, noticeOnException as spoe
 from pynotice.mail.notice import noticeOnFinish as mpof, noticeOnException as mpoe
-from pynotice.app_notifier.notice import noticeOnFinish as appnof, noticeOnException as appnoe
 import numpy as np
 
 
@@ -120,27 +119,3 @@ Traceback (most recent call last):
     raise IOError("%s not found." % path)
 OSError: notExist.txt not found.
 """
-
-
-@appnof()
-def test(name="aaa"):
-    for i in range(10):
-        print(i)
-    return name
-
-print("begin")
-res = test()
-print(res)
-print("end")
-
-
-@appnoe()
-def test(name="bbb"):
-    for i in range(10):
-        print(i)
-    return name
-
-print("begin")
-res = test()
-print(res)
-print("end")

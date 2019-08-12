@@ -1,0 +1,17 @@
+README.md
+setup.py
+pynotice/__init__.py
+pynotice.egg-info/PKG-INFO
+pynotice.egg-info/SOURCES.txt
+pynotice.egg-info/dependency_links.txt
+pynotice.egg-info/requires.txt
+pynotice.egg-info/top_level.txt
+pynotice/demo/__init__.py
+pynotice/demo/main.py
+pynotice/mail/__init__.py
+pynotice/mail/notice.py
+pynotice/mail/utils.py
+pynotice/sound/__init__.py
+pynotice/sound/notice.py
+pynotice/sound/utils.py
+pynotice/sound/resource/__init__.py

@@ -1,5 +1,1 @@
-certifi==2019.6.16
-filetype==1.0.5
-simpleaudio==1.0.2
-wincertstore==0.2
 zmail==0.2.5

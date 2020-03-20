@@ -18,7 +18,7 @@ pip install pynotice
 国内源不知道什么时候更新，可以在仓库的release里下载whl再安装
 #### 使用方法
 ___
-##### -音频-
+##### -音频- 【废弃】
 ##### 函数运行结束通过音频通知
 ```python
 from pynotice.sound.notice import noticeOnFinish
@@ -46,7 +46,7 @@ def foo(name="aaa"):
 
 ##### 函数结束后通过邮件通知
 ```python
-from pynotice.mail.notice import noticeOnFinish
+from pynotice.mail import noticeOnFinish
 import numpy as np
 
 sender = "xxx@gmail.com"
@@ -69,7 +69,7 @@ print(ret)
 
 #### 程序异常时通过邮箱通知
 ```python
-from pynotice.mail.notice import noticeOnException, noticeOnFinish
+from pynotice.mail import noticeOnException, noticeOnFinish
 
 sender = "xxx@gmail.com"
 code = "xxxxxxxxxxxxxxxx"  # SMTP 授权码 

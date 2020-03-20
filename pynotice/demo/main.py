@@ -1,22 +1,21 @@
-from pynotice.sound.notice import noticeOnFinish as spof, noticeOnException as spoe
-from pynotice.mail.notice import noticeOnFinish as mpof, noticeOnException as mpoe
-# from pynotice.app_notifier.notice import noticeOnFinish as appnof, noticeOnException as appnoe
-# import numpy as np
-
+# from pynotice.sound.notice import noticeOnFinish as spof, noticeOnException as spoe
+# from pynotice.mail.notice import noticeOnFinish as mpof, noticeOnException as mpoe
+import numpy as np
+from pynotice.mail import noticeOnException as mpoe, noticeOnFinish as mpof
 
 # sound prompt
-@spof()
-def foo(name="foooo"):
-    for i in range(10000):
-        if i%1000==0:
-            print(name)
-    return "123"
-
-
-print("begin")
-ret = foo()
-print(ret)
-print("finish")
+# @spof()
+# def foo(name="foooo"):
+#     for i in range(10000):
+#         if i%1000==0:
+#             print(name)
+#     return "123"
+#
+#
+# print("begin")
+# ret = foo()
+# print(ret)
+# print("finish")
 """
 out <<
 begin
@@ -58,23 +57,23 @@ end
 
 
 # email prompt
-# sender = "xxx@qq.com"
-# code = "xxx"
-# receiver = "xxxxx@foxmail.com"  # list or str
-# from pynotice.mail import noticeOnFinish
-# @noticeOnFinish(sender, code, receiver, attachments=['demo.txt'])
-# def test(name="aaa"):
-#     x = np.array([[1, 2, 3], [2, 3, 4]])
-#     for i in range(100):
-#         if i%20==0:
-#             print(i)
-#     np.savetxt("demo.txt", x)
-#     return x, [1,23,5,4], name
-#
-# print("begin")
-# ret = test()
-# print(ret)
-# print("end")
+sender = "xxx@qq.com"
+code = "xxx"
+receiver = "xxx@foxmail.com"  # list or str
+from pynotice.mail import noticeOnFinish
+@noticeOnFinish(sender, code, receiver, attachments=['demo.txt'])
+def test(name="aaa"):
+    x = np.array([[1, 2, 3], [2, 3, 4]])
+    for i in range(100):
+        if i%20==0:
+            print(i)
+    np.savetxt("demo.txt", x)
+    return x, [1,23,5,4], name
+
+print("begin")
+ret = test()
+print(ret)
+print("end")
 """
 out <<
 begin

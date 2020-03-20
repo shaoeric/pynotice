@@ -18,7 +18,7 @@ pip install pynotice
 
 #### Usage
 ___
-##### -Sound-
+##### -Sound- [duplicated]
 ##### inform you by playing sound when your function finishes
 ```python
 from pynotice.sound.notice import noticeOnFinish
@@ -46,7 +46,7 @@ Firstly, please confirm you have opened SMTP functions in your email. And the me
 
 ##### inform you of your function result by sending an email when your function finishes
 ```python
-from pynotice.mail.notice import noticeOnFinish
+from pynotice.mail import noticeOnFinish
 import numpy as np
 
 sender = "xxx@gmail.com"
@@ -69,7 +69,7 @@ print(ret)
 
 #### inform you of the Exception by an email when the function throws exceptions
 ```python
-from pynotice.mail.notice import noticeOnException, noticeOnFinish
+from pynotice.mail import noticeOnException, noticeOnFinish
 
 sender = "xxx@qq.com"
 code = "xxxxxxxxxxxxxxxx"  # SMTP authorization code 

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='pynotice',
-    version='0.0.1',
+    version='0.0.2',
     author='shaoeric',
     author_email='shaoeric@foxmail.com',
     url='https://github.com/shaoeric/pynotice',
@@ -17,7 +17,7 @@ setup(
         "": ["*.wav", "*.md", "*.txt"]
     },
     include_package_data = True,
-    install_requires=['simpleaudio==1.0.2', 'zmail==0.2.5', 'filetype==1.0.5'],
+    install_requires=['zmail==0.2.5'],
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
